@@ -7,6 +7,8 @@ import User from './views/User.vue';
 
 //components
 import Footeres from './components/Footeres.vue';
+import TopBar from './components/TopBar.vue';
+import Goods from './components/Goods.vue';
 
 Vue.use(Router);
 

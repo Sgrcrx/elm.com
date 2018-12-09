@@ -2,9 +2,9 @@
 	<div class="top-bar">
 		<div class="nav">
 			<div class="address">
-				<i class="fa fa-map-marker"></i>
-				<h1>请输入地址...</h1>
-				<i class="fa fa-caret-down"></i>
+				<a href="#"><i class="fa fa-map-marker"></i>
+					<h1>请输入地址...</h1>
+					<i class="fa fa-caret-down"></i></a>
 			</div>
 			<div class="search-item">
 				<a href="#">
@@ -24,26 +24,37 @@
 
 <style scoped="scoped">
 	.top-bar {
+		position: fixed;
+		top: 0px;
+		left: 0px;
 		width: 100%;
-	    height: 110px;
-	    background-color: #00a4ff;
+		height: 110px;
+		background-color: #00a4ff;
 	}
-	.address{
+	
+	.address {
 		color: #fff;
 		box-sizing: border-box;
 		padding: 0px 4px;
 	}
-	.address i{
+	
+	.address a{
+		text-decoration: none;
+		color: #fff;
+	}
+	
+	.address i {
 		margin-left: 10px;
 		font-size: 20px;
 	}
-	.address h1{
+	
+	.address h1 {
 		display: inline-block;
 		font-size: 18px;
 		margin-left: 10px;
 	}
 	
-	.search-item{
+	.search-item {
 		width: 100%;
 		height: 100%;
 		box-sizing: border-box;
@@ -52,7 +63,8 @@
 		margin-top: 12px;
 		/*background-color: red;*/
 	}
-	.search-item a{
+	
+	.search-item a {
 		width: 100%;
 		height: 100%;
 		background-color: #fff;
@@ -62,9 +74,10 @@
 		font-size: 16px;
 		color: #999;
 	}
-	.search-item a i{
+	
+	.search-item a i {
 		margin-right: 10px;
 	}
-	.search-item a .names{}
 	
+	.search-item a .names {}
 </style>
