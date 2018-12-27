@@ -1,9 +1,14 @@
 <template>
 	<div class="swiper-container">
 		<div class="swiper-wrapper">
-			<div class="swiper-slide"v-for="(item,index) in items">
+			<div class="swiper-slide">
 				<a href="#">
-					<img :src="item.images"/>
+					<goods></goods>
+				</a>
+			</div>
+			<div class="swiper-slide">
+				<a href="#">
+					<goods2></goods2>
 				</a>
 			</div>
 		</div>
@@ -13,22 +18,16 @@
 
 <script>
 	import Swiper from 'swiper'
+	import Goods from '../components/Goods'
+	import Goods2 from '../components/Goods2'
 	export default {
-		data:function(){
-			return{
-				items:[{
-					id:1,
-					images:require('../../public/img/images/swiper1.jpg')
-				},{
-					id:2,
-					images:require('../../public/img/images/swiper2.jpg')
-				},{
-					id:3,
-					images:require('../../public/img/images/swiper3.jpg')
-				},{
-					id:4,
-					images:require('../../public/img/images/swiper4.jpg')
-				},]
+		components:{
+			Goods,
+			Goods2
+		},
+		data: function() {
+			return {
+
 			};
 		},
 		methods: {},
@@ -39,7 +38,7 @@
 				pagination: {
 					el: '.swiper-pagination',
 				},
-				autoplay: true
+				autoplay: false
 			});
 
 		}

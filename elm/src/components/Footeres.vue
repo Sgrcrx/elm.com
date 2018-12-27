@@ -45,16 +45,16 @@
 	footer {
 		width: 100%;
 		height: 50px;
-		background-color: red;
 		color: #353535;
 		text-align: center;
-		background-color: #fff;
 		box-shadow: 0 0 10px 0 hsla(0, 6%, 58%, .6);
 		-webkit-box-shadow: 0 0 10px 0 hsla(0, 6%, 58%, .6);
 		-moz-box-shadow: 0 0 10px 0 hsla(0, 6%, 58%, .6);
 		position: fixed;
 		bottom: 0px;
 		left: 0px;
+		z-index: 9999;
+		background-color: #fff;
 	}
 	
 	footer a {

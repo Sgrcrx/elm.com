@@ -75,7 +75,7 @@
 
 <style scoped="scoped">
 	.good{
-		/*margin: 120px 10px 10px;*/
+		margin: 60px 0px 10px;
 	}
 	.goods {
 		display: flex;

@@ -30,6 +30,7 @@
 		width: 100%;
 		height: 110px;
 		background-color: #00a4ff;
+		z-index: 9999;
 	}
 	
 	.address {
