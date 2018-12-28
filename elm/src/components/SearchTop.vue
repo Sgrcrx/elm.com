@@ -54,6 +54,7 @@
 		display: block;
 		content: '';
 		clear: both;
+		position: relative;
 		
 	}
 	.search-top .it1{
@@ -99,6 +100,7 @@
 		height: 60px;
 		display: inline-block;
 		float: right;
+		position: absolute;
 	}
 	
 	.search-top .it3 {}
