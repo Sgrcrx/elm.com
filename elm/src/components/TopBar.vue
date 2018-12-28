@@ -80,5 +80,7 @@
 		margin-right: 10px;
 	}
 	
-	.search-item a .names {}
+	.search-item a .names {
+		font-size: 14px;
+	}
 </style>
